@@ -63,3 +63,24 @@ footer img{height:70px;margin-bottom:8px}.cp{text-align:center;margin-top:26px;f
 .fab{position:fixed;right:16px;bottom:16px;background:#25d366;color:#fff;width:56px;height:56px;border-radius:50%;display:grid;place-items:center;font-size:28px;box-shadow:0 4px 14px #0005;z-index:40}
 .toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:var(--n);color:#fff;padding:12px 22px;border-radius:30px;z-index:99;border:2px solid var(--y);font-weight:600}
 .empty{text-align:center;padding:40px 0}
+
+.top{background:#050f2e;color:#b9c6ea;font-size:.82rem}.top .w{display:flex;justify-content:space-between;align-items:center;min-height:38px;gap:10px}.top .tr{display:flex;gap:16px;align-items:center}.top a:hover{color:var(--y)}
+.soc{display:flex;gap:8px}.soc a{width:28px;height:28px;border-radius:50%;background:#ffffff14;display:grid;place-items:center;font-size:.85rem;transition:.2s}.soc a:hover{background:var(--y);color:#000;transform:translateY(-2px)}.soc.big a{width:38px;height:38px;font-size:1.05rem}
+header{box-shadow:0 4px 18px #0006}header .w{min-height:72px}.logo img{height:56px}
+nav{margin-left:auto;gap:4px}nav a{position:relative;padding:10px 14px;font-weight:600;letter-spacing:.2px;border-radius:0}nav a i{color:var(--y);margin-right:4px;font-size:.9rem}
+nav a::after{content:"";position:absolute;left:14px;right:14px;bottom:2px;height:3px;border-radius:3px;background:var(--y);transform:scaleX(0);transition:.25s}nav a.on::after,nav a:hover::after{transform:scaleX(1)}nav a.on,nav a:hover{background:none;color:#fff}
+.cartb{border-radius:30px}.hcta{border-radius:30px;padding:10px 18px}
+.btn{border-radius:10px}.btn.sq{padding:9px 13px;font-size:1.1rem;flex:none}.ca{display:flex;gap:8px;margin-top:auto}.ca .btn:first-child{flex:1;font-size:.82rem;padding:9px 6px}
+.fab{font-size:30px}
+@media(max-width:820px){.top .ad{display:none}.top .w{justify-content:center}header .w{min-height:64px}.logo img{height:46px}.hcta{display:none}.cartb{margin-left:auto;padding:8px 12px}.burger{margin-left:0;font-size:1.5rem;padding:6px 10px}
+nav{top:100%;box-shadow:0 14px 24px #0007;padding:6px 0 10px}nav a{padding:15px 22px;border-bottom:1px solid #ffffff12;font-size:1rem}nav a::after{display:none}nav a.on{color:var(--y);background:#ffffff0d}}
+@media(max-width:520px){.ct{display:none}section{padding:34px 0}.hero{padding:46px 0}.hero p{font-size:.98rem}.card .bd{padding:10px}.card h3{font-size:.84rem}.pr{font-size:1rem}.old{font-size:.78rem}.badge{font-size:.7rem;padding:2px 8px}.box{padding:16px}.crow{grid-template-columns:64px 1fr;}.crow>b{grid-column:2}.crow img{width:64px;height:52px}.acts .btn{min-width:100%}.cat{padding:16px 8px}.cat span{font-size:1.8rem}.cta{padding:28px 16px}}
+.ph{background:linear-gradient(120deg,var(--n),#12307a);color:#fff;padding:54px 0;text-align:center;border-bottom:3px solid var(--y)}.ph h1{font-size:clamp(1.7rem,5vw,2.6rem)}.ph h1 em{font-style:normal;color:var(--y)}.ph p{max-width:620px;margin:10px auto 0;color:#dbe5ff}
+.fr{display:grid;grid-template-columns:1fr 1fr;gap:0 14px}@media(max-width:560px){.fr{grid-template-columns:1fr}}
+.ic{display:flex;gap:14px;align-items:flex-start;padding:12px 0;border-bottom:1px solid #e6ebf6}.ic:last-of-type{border:0}.ic>i{width:44px;height:44px;border-radius:12px;background:var(--n);color:var(--y);display:grid;place-items:center;flex:none;font-size:1.1rem}.ic b{display:block}.ic a{color:var(--b);font-weight:600}
+.map{border:0;width:100%;height:340px;border-radius:12px}
+.feat{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}.feat .box i{font-size:1.6rem;color:var(--b);margin-bottom:10px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;text-align:center}.stats .box b{display:block;font-size:1.9rem;color:var(--b)}
+.mv{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}.mv .box{border-top:4px solid var(--y)}
+footer p i{color:var(--y);margin-right:6px;width:16px}footer a i{color:var(--y);margin-right:8px;width:16px}
+#cs a{background:var(--n);color:var(--y)}
