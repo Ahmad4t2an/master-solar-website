@@ -100,3 +100,4 @@ footer p i{color:var(--y);margin-right:6px;width:16px}footer a i{color:var(--y);
 .hero .btn{display:block;margin:0 0 10px;padding:13px;font-size:1rem}
 .hero .btn.ol{border:2px solid var(--y);color:var(--y)}
 }
+.card img{aspect-ratio:1/1;object-fit:contain;background:#fff}.card>a{display:block;border-bottom:1px solid #eef1f8}.pimg img{object-fit:contain;background:#fff}
